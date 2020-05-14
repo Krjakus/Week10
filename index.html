@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+     <meta charset="UTF-8">
+    <title> </title>
+    <script src="./js/index.js" type="text/javascript"></script>
+</head>
+<body>
+</body>
+</html>
+</head>
+
+<!--7<input type="button" value="Нажата 0 раз" onclick="let t = this.value.split (' '); ++t [1]; this.value = t.join (' ')">-->
+<!--8--><!--
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur at, atque deleniti hic minima optio. Amet consectetur cum earum?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto culpa delectus ducimus est inventore nesciunt repellendus ut. Autem commodi molestias nemo quis reiciendis. Consequatur necessitatibus quaerat soluta. Ab accusantium, assumenda debitis dolore minus, molestias necessitatibus, porro quod repellat sed voluptas.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam cupiditate distinctio dolorem excepturi facilis fugiat id illo labore maiores maxime, odit officia provident quaerat quia quo quos voluptates voluptatum!30</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad debitis delectus fugit laboriosam, natus obcaecati veritatis! Culpa cupiditate facilis ipsa libero magnam, quod rem ut vel! Consequatur ex ipsum molestias.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab commodi, consectetur corporis dignissimos distinctio ex excepturi molestias nobis odit omnis placeat quam quos sapiente sint sit, suscipit tempore veritatis voluptatibus?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet doloremque ipsam non quam quia similique vero. Dignissimos eum excepturi omnis? Ad corporis est illum quibusdam, recusandae temporibus voluptas voluptates. Accusamus?</p>
+<input type="submit" value="Нумерация" onclick="numb()">
+<script>
+    function numb(){
+        let element = document.getElementsByTagName('p');
+        for (let i = 0; i < element.length; i++){
+            element[i].innerHTML = i + '. ' + element[i].innerHTML;
+        }
+    }
+</script>
+-->
+<!--9--><!--
+    <style>
+        body{
+            background-color: #b2f3ff;
+        }
+        .divContainer{
+               box-sizing: border-box;
+               display: flex;
+               background-color: #00ba04;
+               height: 100%;
+        }
+          #div1{
+               width: 200px;
+               height: 200px;
+               margin: 20px auto;
+              background-color:#ff0000
+          }
+           #div2{
+               width: 200px;
+               height: 200px;
+               margin: 20px auto;
+               background-color:#0000ff ;
+           }
+    </style>
+
+</head>
+<body>
+<div class="divContainer">
+    <div id="div1">     </div>
+    <div id="div2">     </div>
+</div>
+<script>
+    let arr=["#0000ff", "#00ff00"];
+    let i1=1;
+    function clickDiv1(obj ) {
+        i1++;
+        if(i1%2===0){obj.style.backgroundColor = "#ff0000";}
+        else{obj.style.backgroundColor = arr[Math.round(Math.random())]}
+    }
+    let i2=1;
+    function clickDiv2(obj ) {
+        i2++;
+        if(i2%2===0){obj.style.backgroundColor = "#ff0000";}
+        else{obj.style.backgroundColor = arr[Math.round(Math.random())]}
+    }
+</script>
+-->прошу не бить тапками так как не смог разобраться с EventListener, какие комбинации я неперепробывал с дивами ничего не получаетя его использовать а так как с самого начала я не полностью прочитал задание то смог "реализовать" 45% задания
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
